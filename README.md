@@ -30,4 +30,4 @@ In the second baseline, we use the Wav2Vec model to extract features (i.e. embed
 
 ### Evaluation: 
 
-Each participant can submit up to three models. The Macro F1 Score measure will be used to evaluate the models.
+Each participant can submit up to three models. The [Macro F1 Score measure](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score) will be used to evaluate the models.
