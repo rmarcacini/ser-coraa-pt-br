@@ -11,7 +11,8 @@ In this task, participants must train their own models using acoustic audio feat
 ### Training Data
 
 Audio segments are available in the [data_train.zip](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) file.
-Audio files are named according to their label: `<file-id>_<label>.wav` 
+
+Audio files are named according to their label: `<file-id>_<label>.wav` . Check the baselines for some examples on reading and pre-processing the training set.
 
 ### Baselines
 
