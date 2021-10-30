@@ -2,11 +2,15 @@
 
 Here, we present the Brazilian Portuguese Speech Emotion Recognition Task. This task aims to motivate research for SER in our community, mainly to discuss theoretical and practical aspects of Speech Emotion Recognition, pre-processing and feature extraction, and machine learning models for Brazilian Portuguese.
 
-We provide a dataset called CORAA version 6 composed of approximately 50 minutes of audio segments labeled in three classes: neutral, non-neutral female, and non-neutral male. While the neutral class represents audio segments with no well-defined emotional state, the non-neutral classes represent segments associated with one of the primary emotional states in the speaker's speech. This dataset was built from the C-ORAL-BRASIL I corpus (Raso and Mello, 2012).
+We provide a dataset called [CORAA version 6](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) composed of approximately 50 minutes of audio segments labeled in three classes: neutral, non-neutral female, and non-neutral male. While the neutral class represents audio segments with no well-defined emotional state, the non-neutral classes represent segments associated with one of the primary emotional states in the speaker's speech. This dataset was built from the C-ORAL-BRASIL I corpus (Raso and Mello, 2012).
 
 The available corpus consists of audio segments representing Brazilian Portuguese informal spontaneous speech. The non-neutral emotion class was labeled considering paralinguistic elements (laughing, crying, etc). Participants can use pre-trained models and external data, as long as the original C-ORAL-BRASIL corpus (or variants) is not used for model training.
 
 In this task, participants must train their own models using acoustic audio features. A training set is available. The models trained by the participants will be evaluated in a test set, which will be made publicly available after the challenge.
+
+### Training Data
+
+Audio segments are available in the [data_train.zip](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) file.
 
 ### Baselines
 
