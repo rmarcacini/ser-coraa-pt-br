@@ -2,7 +2,7 @@
 
 Here, we present the Brazilian Portuguese Speech Emotion Recognition Task. This task aims to motivate research for SER in our community, mainly to discuss theoretical and practical aspects of Speech Emotion Recognition, pre-processing and feature extraction, and machine learning models for Brazilian Portuguese.
 
-We provide a dataset called [CORAA version 6](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) composed of approximately 50 minutes of audio segments labeled in three classes: [neutral, non-neutral female, and non-neutral male](https://drive.google.com/file/d/1VaSJK6MmvQ6OSwBMPNKRP6VtD2vftgo0/view?usp=sharing). While the neutral class represents audio segments with no well-defined emotional state, the non-neutral classes represent segments associated with one of the primary emotional states in the speaker's speech. This dataset was built from the [C-ORAL-BRASIL I corpus](http://www.c-oral-brasil.org/).
+We provide a dataset called [CORAA version 6](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) composed of approximately 50 minutes of audio segments labeled in three classes: [neutral, non-neutral female, and non-neutral male](https://colab.research.google.com/drive/1VaSJK6MmvQ6OSwBMPNKRP6VtD2vftgo0). While the neutral class represents audio segments with no well-defined emotional state, the non-neutral classes represent segments associated with one of the primary emotional states in the speaker's speech. This dataset was built from the [C-ORAL-BRASIL I corpus](http://www.c-oral-brasil.org/).
 
 The available corpus consists of audio segments representing Brazilian Portuguese informal spontaneous speech. The non-neutral emotion class was labeled considering paralinguistic elements (laughing, crying, etc). Participants can use pre-trained models and external data, as long as the original C-ORAL-BRASIL corpus (or variants) is not used for model training.
 
@@ -18,14 +18,14 @@ We present two simple baselines as examples of pre-processing audio segments for
 
 The first baseline uses a set of prosodic audio features for emotion classification.
 
-* [Pre-processing (Prosodic Features)](https://drive.google.com/file/d/1g9IBNqqPn4WpFTGvoSYm2h7UUAzJSc_q/view?usp=sharing)
-* [Model Training (Prosodic Features)](https://drive.google.com/file/d/1hdBMPrfk0-k0RxikBUs113RvNeI3o7j-/view?usp=sharing)
+* [Pre-processing (Prosodic Features)](https://colab.research.google.com/drive/1g9IBNqqPn4WpFTGvoSYm2h7UUAzJSc_q)
+* [Model Training (Prosodic Features)](https://colab.research.google.com/drive/1hdBMPrfk0-k0RxikBUs113RvNeI3o7j-)
 * [Output files and examples](https://drive.google.com/drive/folders/1_jrqArRsNmBD2W4FWGoqNNNJDA7yVjUF?usp=sharing)
 
 In the second baseline, we use the Wav2Vec model to extract features (i.e. embeddings) from the audio segments. These features can be used for training a speech emotion recognition classifier.
 
-* [Pre-processing (Wav2Vec Features)](https://drive.google.com/file/d/1N-QgjCax881LLH1bmsPJyLz707iO8KRc/view?usp=sharing)
-* [Model Training (Wav2Vec Features)](https://drive.google.com/file/d/1kausjiMFEM5h1sJQ8CxFmRpnZKQL5-Mc/view?usp=sharing)
+* [Pre-processing (Wav2Vec Features)](https://colab.research.google.com/drive/1N-QgjCax881LLH1bmsPJyLz707iO8KRc)
+* [Model Training (Wav2Vec Features)](https://colab.research.google.com/drive/1kausjiMFEM5h1sJQ8CxFmRpnZKQL5-Mc)
 * [Output files and examples](https://drive.google.com/drive/folders/1FGdwoaG6ERYVaisMp10TpllxG4Jjsv3o?usp=sharing)
 
 ### Evaluation: 
