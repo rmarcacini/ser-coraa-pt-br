@@ -34,8 +34,8 @@ In the second baseline, we use the Wav2Vec model to extract features (i.e. embed
 
 Each participant can submit up to three models. The [Macro F1 Score measure](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score) will be used to evaluate the models.
 
-### More information
+### Website
 
-The S&ER 2022 Workshop is collocated with the 15th edition of the International Conference on the Computational Processing of Portuguese (PROPOR 2022) and introduces two versions of a new dataset called CORAA (Corpus of Annotated Audios) built in the TaRSila project, an effort of the Center for Artificial Intelligence (C4AI). 
+The S&ER 2022 Workshop is collocated with the 15th edition of the International Conference on the Computational Processing of Portuguese (PROPOR 2022). 
 
 [https://sites.google.com/view/ser2022/home](https://sites.google.com/view/ser2022/home)
