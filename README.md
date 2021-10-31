@@ -36,6 +36,8 @@ Each participant can submit up to three models. The [Macro F1 Score measure](htt
 
 ### More information
 
-The S&ER 2022 Workshop is collocated with the 15th edition of the International Conference on the Computational Processing of Portuguese (PROPOR 2022). 
+The S&ER 2022 Workshop is collocated with the 15th edition of the [International Conference on the Computational Processing of Portuguese (PROPOR 2022)](https://sites.universidadedefortaleza.com/propor2022/). 
 
 Workshop website: [https://sites.google.com/view/ser2022/home](https://sites.google.com/view/ser2022/home)
+
+
