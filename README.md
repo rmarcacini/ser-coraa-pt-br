@@ -10,9 +10,15 @@ In this task, participants must train their own models using acoustic audio feat
 
 ### Training Data
 
-Audio segments are available in the [data_train.zip](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) file.
+Train audio segments are available in the [data_train.zip](https://drive.google.com/drive/folders/12Nuv8J7pBHJuNU3nH2c7F8VwCDEE6GDt?usp=sharing) file.
 
 Audio files are named according to their label: `<file-id>_<label>.wav` . Check the baselines for some examples on reading and pre-processing the training set.
+
+### Test Data
+
+Test audio segments are available in the [test_ser.zip](https://drive.google.com/file/d/1UQOi59rFbk5bVvaF7lQWFwRaae8eaOKV/view?usp=sharing) file.
+
+The ground truth and other metadata are available in the [test_ser_metadata.csv](https://drive.google.com/file/d/1BQCkD2gKAofIsqmcVp7bB2sauqwVietz/view?usp=sharing) file.
 
 ### Baselines
 
